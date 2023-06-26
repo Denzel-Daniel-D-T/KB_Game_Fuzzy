@@ -59,7 +59,7 @@ public class MenuScreen implements Screen, InputProcessor {
 
         Skin mySkin = assetManager.get("uiskin.json", Skin.class);
 
-        titleLabel = new Label("Klee's Emergency\nDefense System!\n(AI Edition)", mySkin);
+        titleLabel = new Label("Klee's Emergency\nDefense System!\n(Fuzzy AI Edition)", mySkin);
         Label.LabelStyle style = new Label.LabelStyle(titleLabel.getStyle());
         style.font = assetManager.get("bigfont.ttf", BitmapFont.class);
         titleLabel.setStyle(style);
@@ -395,7 +395,7 @@ public class MenuScreen implements Screen, InputProcessor {
         aboutWindow.getTitleLabel().setAlignment(Align.center);
         stage.addActor(aboutWindow);
 
-        aboutLabel = new Label("Klee's Emergency Defense System! (AI Edition)\n\nProyek KB\n\nKelompok 5\nDenzel Daniel D'Assante Tangsaputra - C14200160\nJustin A. H. Rampengan - C14200148\nWendy L. Paath - C14200150\nBrigitta A. Heryanto - C1400188", mySkin);
+        aboutLabel = new Label("Klee's Emergency Defense System! (Fuzzy AI Edition)\n\nGame AI Project\n\nDenzel Daniel D'Assante Tangsaputra - C14200160\nKevin Montoya - C14190133\nJeremy Amadeus Raul Wibisono - C14200113\nSebastian Sutanto - C14200125\nAngelo Brian Rafael - C14200062", mySkin);
         aboutLabel.setPosition(aboutWindow.getWidth() / 2 - aboutLabel.getWidth() / 2, 80);
         aboutLabel.setAlignment(Align.center);
         aboutWindow.addActor(aboutLabel);
